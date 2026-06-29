@@ -1,3 +1,15 @@
+import subprocess
+import sys
+
+# Install tensorflow at runtime
+subprocess.run([sys.executable, "-m", "pip", "install", 
+                "tensorflow-cpu==2.13.0", "--quiet"], 
+               check=True)
+
+import streamlit as st
+import numpy as np
+# ... baaki sab same
+
 import streamlit as st
 import numpy as np
 import cv2
