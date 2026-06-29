@@ -1,8 +1,6 @@
 streamlit
-keras
-tensorflow-cpu
-opencv-python-headless
+gdown
 Pillow
 numpy
 matplotlib
-gdown
+opencv-python-headless
