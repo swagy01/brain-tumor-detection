@@ -1,8 +1,8 @@
 streamlit
+keras
 tensorflow-cpu
 opencv-python-headless
 Pillow
 numpy
 matplotlib
 gdown
-protobuf==3.20.0
